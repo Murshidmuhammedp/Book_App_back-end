@@ -11,7 +11,7 @@ app.use(express.json());
 
 app.use(cors({
     // origin: "http://localhost:5173",
-    origin: "https://book-app-front-end-sigma.vercel.app/",
+    origin: "https://bookverse-app.vercel.app",
     credentials: true
 }));
 
